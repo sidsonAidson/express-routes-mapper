@@ -1,63 +1,19 @@
 {
   "name": "express-routes-mapper",
-  "version": "1.0.1",
-  "description": "a small mapper for express routes",
-  "main": "lib/index.js",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/aichbauer/express-routes-mapper.svg?branch=master)](https://travis-ci.org/aichbauer/express-routes-mapper) [![Coverage Status](https://coveralls.io/repos/github/aichbauer/express-routes-mapper/badge.svg)](https://coveralls.io/github/aichbauer/express-routes-mapper)",
+  "main": "index.js",
   "scripts": {
-    "pretest": "npm run lint && npm run babel",
-    "test": "nyc ava",
-    "lint": "eslint ./src/index.js",
-    "lintFix": "eslint ./src/index.js --fix",
-    "coveralls": "nyc report --reporter=text-lcov | coveralls",
-    "prepublish": "npm run babel",
-    "precommit": "npm run lint",
-    "prepush": "npm test",
-    "babel": "babel src --out-dir lib"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "express",
-    "routes",
-    "mapper",
-    "routing",
-    "map"
-  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aichbauer/express-routes-mapper.git"
+    "url": "git+https://github.com/sidsonAidson/express-routes-mapper.git"
   },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aichbauer/express-routes-mapper/issues"
+    "url": "https://github.com/sidsonAidson/express-routes-mapper/issues"
   },
-  "homepage": "https://github.com/rudolfsonjunior/express-routes-mapper#readme",
-  "author": "Lukas Aichbauer  <l.aichbauer@gmail.com> (https://github.com/aichbauer/)",
-  "license": "MIT",
-  "dependencies": {
-    "babel-core": "^6.23.1",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-env": "^1.2.1",
-    "babel-register": "^6.23.0",
-    "express": "^4.15.2",
-    "object.entries": "^1.0.4"
-  },
-  "devDependencies": {
-    "ava": "^0.18.2",
-    "babel-cli": "^6.24.0",
-    "coveralls": "^2.12.0",
-    "eslint": "^3.17.1",
-    "eslint-config-airbnb-base": "^11.1.1",
-    "eslint-plugin-import": "^2.2.0",
-    "husky": "^0.13.2",
-    "nyc": "^10.1.2"
-  },
-  "ava": {
-    "require": [
-      "babel-core/register"
-    ]
-  },
-  "nyc": {
-    "exclude": [
-      "test",
-      "examples"
-    ]
-  }
+  "homepage": "https://github.com/sidsonAidson/express-routes-mapper#readme"
 }
