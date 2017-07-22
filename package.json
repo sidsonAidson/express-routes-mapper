@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/sidsonAidson/express-routes-mapper/issues"
   },
-  "homepage": "https://github.com/sidsonAidson/express-routes-mapper#readme"
+  "homepage": "https://github.com/sidsonAidson/express-routes-mapper#readme",
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "express": "^4.15.3",
+    "object.entries": "^1.0.4"
+  }
 }
